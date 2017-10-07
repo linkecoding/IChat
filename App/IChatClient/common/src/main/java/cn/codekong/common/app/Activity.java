@@ -3,6 +3,11 @@ package cn.codekong.common.app;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v4.app.Fragment;
+import java.util.List;
+
+import butterknife.ButterKnife;
+import butterknife.Unbinder;
 
 /**
  * Created by 尚振鸿 on 17-10-6. 21:57
@@ -10,6 +15,7 @@ import android.support.v7.app.AppCompatActivity;
  */
 
 public abstract class Activity extends AppCompatActivity {
+    protected Unbinder mUnbinder;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -50,7 +56,7 @@ public abstract class Activity extends AppCompatActivity {
      * 初始化控件
      */
     protected void initWidget() {
-
+        mUnbinder = ButterKnife.bind(this);
     }
 
     /**
@@ -69,6 +75,21 @@ public abstract class Activity extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
+        //获得当前Activity的所有Fragment
+        @SuppressWarnings("RestrictedApi")
+        List<Fragment> fragmentList = getSupportFragmentManager().getFragments();
+        if (fragmentList != null && fragmentList.size() > 0){
+            for (Fragment fragment : fragmentList) {
+                //是否是我们自定义的Fragment
+                if (fragment instanceof cn.codekong.common.app.Fragment){
+                    if (((cn.codekong.common.app.Fragment)fragment).onBackPressed()){
+                        //Fragment处理了返回事件
+                        return;
+                    }
+                }
+            }
+        }
         super.onBackPressed();
+        finish();
     }
 }
