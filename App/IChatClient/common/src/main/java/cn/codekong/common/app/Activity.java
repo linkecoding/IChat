@@ -23,7 +23,8 @@ public abstract class Activity extends AppCompatActivity {
         //在界面初始化之前初始化窗口
         initWindows();
         if (initArgs(getIntent().getExtras())) {
-            getContentLayoutId();
+            int layoutId = getContentLayoutId();
+            setContentView(layoutId);
             initWidget();
             initData();
         } else {
