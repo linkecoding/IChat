@@ -2,6 +2,7 @@ package cn.codekong.ichatclient;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.RecyclerView;
 
 public class MainActivity extends AppCompatActivity {
     @Override

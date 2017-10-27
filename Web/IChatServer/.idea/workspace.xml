@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ArtifactsWorkspaceSettings">
-    <artifacts-to-build>
-      <artifact name="Gradle : cn.codekong : IChatServer-1.0-SNAPSHOT.war" />
-    </artifacts-to-build>
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6a3c9f5-b6d5-4523-8f16-6aa44ae7d12e" name="Default" comment="" />
+    <list default="true" id="f035a781-d6eb-460e-8d09-d619a25548dc" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -34,14 +29,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
+    <leaf />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -226,8 +214,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="3014473775000" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="1887141396" />
+        <entry key="$PROJECT_DIR$" value="3015462804000" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -249,78 +236,78 @@
               <option name="name" value="IChatServer" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-runtime-api-info-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-messaging-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-model-groovy-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-build-cache-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-docs-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-core-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-kotlin-dsl-0.11.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-kotlin-dsl-tooling-models-0.11.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-kotlin-dsl-tooling-builders-0.11.1.jar" />
                   <option value="/opt/gradle/gradle-4.2.1/lib/ant-1.9.6.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-core-api-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-cli-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/groovy-all-2.4.12.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-persistent-cache-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-kotlin-dsl-tooling-builders-0.11.1.jar" />
                   <option value="/opt/gradle/gradle-4.2.1/lib/ant-launcher-1.9.6.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-build-cache-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-kotlin-dsl-0.11.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-docs-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-jvm-services-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-process-services-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-persistent-cache-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-installation-beacon-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-core-api-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-runtime-api-info-4.2.1.jar" />
                   <option value="/opt/gradle/gradle-4.2.1/lib/gradle-native-4.2.1.jar" />
                   <option value="/opt/gradle/gradle-4.2.1/lib/gradle-resources-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-installation-beacon-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-base-services-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-tooling-api-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-jvm-services-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-base-services-groovy-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-process-services-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-logging-4.2.1.jar" />
                   <option value="/opt/gradle/gradle-4.2.1/lib/gradle-launcher-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-tooling-api-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-base-services-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/groovy-all-2.4.12.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-logging-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-model-groovy-4.2.1.jar" />
                   <option value="/opt/gradle/gradle-4.2.1/lib/gradle-wrapper-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-core-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-cli-4.2.1.jar" />
                   <option value="/opt/gradle/gradle-4.2.1/lib/gradle-model-core-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-composite-builds-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-language-java-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-build-init-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/ivy-2.2.0.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-javascript-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-build-comparison-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-kotlin-dsl-tooling-models-0.11.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-messaging-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/gradle-base-services-groovy-4.2.1.jar" />
                   <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-diagnostics-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-publish-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-ide-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-plugin-development-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-testing-jvm-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-testing-native-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-plugins-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-jacoco-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-maven-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-platform-native-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-ivy-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-ide-native-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-plugin-use-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-build-cache-http-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-antlr-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-osgi-4.2.1.jar" />
                   <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-scala-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-language-scala-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-platform-play-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-language-native-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-javascript-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-plugin-development-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-osgi-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-reporting-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-platform-jvm-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-resources-http-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-resources-gcs-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-resources-sftp-4.2.1.jar" />
                   <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-announce-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-resources-s3-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-language-scala-4.2.1.jar" />
                   <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-language-jvm-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-test-kit-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-resources-s3-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-ide-native-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-language-native-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-workers-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-plugins-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-antlr-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-signing-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-publish-4.2.1.jar" />
                   <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-language-groovy-4.2.1.jar" />
                   <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-ide-play-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-dependency-management-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-signing-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-platform-base-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-code-quality-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-resources-http-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-testing-base-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-reporting-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-workers-4.2.1.jar" />
                   <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-ear-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-testing-native-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-build-init-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-platform-play-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-code-quality-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-ivy-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-dependency-management-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-testing-jvm-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-platform-base-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-plugin-use-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-platform-native-4.2.1.jar" />
                   <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-tooling-api-builders-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-resources-sftp-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-resources-gcs-4.2.1.jar" />
-                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-platform-jvm-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-composite-builds-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-ide-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-testing-base-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-test-kit-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-maven-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-build-comparison-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-build-cache-http-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-language-java-4.2.1.jar" />
+                  <option value="/opt/gradle/gradle-4.2.1/lib/plugins/gradle-jacoco-4.2.1.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -334,33 +321,14 @@
       <projects_view />
     </option>
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/codekong/ichatserver/app/Application.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/codekong/ichatserver/bean/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/codekong/ichatserver/service/AccountService.java" />
-      </list>
-    </option>
-  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="LogFilters">
-    <option name="FILTER_ERRORS" value="false" />
-    <option name="FILTER_WARNINGS" value="false" />
-    <option name="FILTER_INFO" value="true" />
-    <option name="FILTER_DEBUG" value="true" />
-    <option name="CUSTOM_FILTER" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="632" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="430" />
     <option name="y" value="24" />
     <option name="width" value="722" />
     <option name="height" value="744" />
@@ -381,6 +349,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -400,66 +369,24 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
             </path>
-            <path>
-              <item name="IChatServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IChatServer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IChatServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IChatServer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ichatserver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IChatServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IChatServer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="ichatserver" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IChatServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IChatServer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="IChatServer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="IChatServer" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../Sdk" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+    <property name="settings.editor.selected.configurable" value="xpath.settings" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF" />
-      <recent name="$PROJECT_DIR$/src/main/resources" />
-    </key>
+    <property name="project.structure.side.proportion" value="0.2" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -474,12 +401,12 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.LocalTomcat">
-    <configuration name="LocalTomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+    <configuration name="LocalTomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="jdk1.8">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="Gradle : cn.codekong : IChatServer-1.0-SNAPSHOT.war">
           <settings>
-            <option name="CONTEXT_PATH" value="/ichatserver" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
@@ -495,7 +422,7 @@
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="37624" />
+        <option name="DEBUG_PORT" value="35353" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -549,7 +476,6 @@
       </method>
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
@@ -589,11 +515,11 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8">
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.23" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="jdk1.8">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment />
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="_IChatServer_2" />
+        <option name="BASE_DIRECTORY_NAME" value="_IChatServer" />
         <option name="DEPLOY_TOMCAT_APPS" value="true" />
         <option name="PRESERVE_SESSIONS" value="true" />
       </server-settings>
@@ -604,7 +530,7 @@
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="37624" />
+        <option name="DEBUG_PORT" value="35353" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -698,52 +624,49 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a6a3c9f5-b6d5-4523-8f16-6aa44ae7d12e" name="Default" comment="" />
-      <created>1507209244135</created>
+      <changelist id="f035a781-d6eb-460e-8d09-d619a25548dc" name="Default" comment="" />
+      <created>1508834932201</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1507209244135</updated>
-      <workItem from="1507209247720" duration="601000" />
-      <workItem from="1507261291620" duration="4296000" />
-      <workItem from="1507270789222" duration="4701000" />
+      <updated>1508834932201</updated>
+      <workItem from="1508834934206" duration="415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9598000" />
+    <option name="totallyTimeSpent" value="415000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="632" y="24" width="722" height="744" extended-state="4" />
+    <frame x="0" y="-4" width="1366" height="772" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905295" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32605043" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32744783" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51911765" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939324" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32905295" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14728096" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1691843" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24980299" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -756,124 +679,12 @@
     <breakpoint-manager />
     <watches-manager />
   </component>
-  <component name="antWorkspaceConfiguration">
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
-    <option name="FILTER_TARGETS" value="false" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/codekong/ichatserver/app/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="24" lean-forward="false" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/265d89b8-c47f-48af-8886-1f44cd25c59e/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/76d81a31-452a-4c70-ade9-2ddbd9cb0474/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/javax.ws.rs/javax.ws.rs-api/2.1-m05/2463ebf6800a82b73b2293556a368c783d743902/javax.ws.rs-api-2.1-m05-sources.jar!/javax/ws/rs/Path.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="91" column="18" lean-forward="false" selection-start-line="91" selection-start-column="18" selection-end-line="91" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="29" column="27" lean-forward="false" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
-          <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/codekong/ichatserver/app/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="24" column="5" lean-forward="false" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/codekong/ichatserver/service/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="30" column="32" lean-forward="true" selection-start-line="30" selection-start-column="32" selection-end-line="30" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/codekong/ichatserver/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#250#251#0" expanded="true" />
-            <element signature="e#298#299#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#492#493#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -896,7 +707,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Hibernate</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -919,7 +730,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>jdk1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -931,12 +742,23 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>IChatServer_main|IChatServer</last-edited>
+          <last-edited>IChatServer</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>jdk1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
@@ -945,17 +767,6 @@
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
           <last-edited>Gradle: antlr:antlr:2.7.7</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ScopeChooserConfigurable.UI">
-        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>

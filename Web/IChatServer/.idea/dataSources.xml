@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="TXOS_MySQL" uuid="265d89b8-c47f-48af-8886-1f44cd25c59e">
+    <data-source source="LOCAL" name="TXOS_MySQL" uuid="76d81a31-452a-4c70-ade9-2ddbd9cb0474">
       <driver-ref>mysql</driver-ref>
       <synchronize>true</synchronize>
-      <configured-by-url>true</configured-by-url>
       <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
       <jdbc-url>jdbc:mysql://123.206.194.41:3306</jdbc-url>
       <driver-properties>
