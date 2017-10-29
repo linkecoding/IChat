@@ -11,5 +11,14 @@
       <user-name>root</user-name>
       <introspection-schemas>*:information_schema</introspection-schemas>
     </data-source>
+    <data-source name="hibernate.cfg.xml/Hibernate" uuid="7792012b-8b4b-4817-9b88-399e1cf2f648">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <first-sync>true</first-sync>
+      <user-name>root</user-name>
+    </data-source>
+    <data-source name="hibernate.cfg.xml/Hibernate" uuid="af13c66e-9916-4a9c-8edc-21ba8b63fc19">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <user-name>root</user-name>
+    </data-source>
   </component>
 </project>

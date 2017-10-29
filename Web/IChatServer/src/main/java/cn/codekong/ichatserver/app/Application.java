@@ -6,8 +6,6 @@ import org.glassfish.jersey.server.ResourceConfig;
 
 import java.util.logging.Logger;
 
-import cn.codekong.ichatserver.service.AccountService;
-
 /**
  * Created by 尚振鸿 on 17-10-6. 14:20
  * mail:szh@codekong.cn
