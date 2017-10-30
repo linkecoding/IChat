@@ -15,7 +15,7 @@ public class Application extends ResourceConfig{
     public Application(){
 
         //注册逻辑处理的包名
-        packages(AccountService.class.getPackage().getName());
+        //packages(AccountService.class.getPackage().getName());
         //注册json解析器
         register(JacksonJsonProvider.class);
         //注册日志打印

@@ -24,7 +24,7 @@ import javax.persistence.Table;
  */
 
 @Entity
-@Table(name = "TB_GroupMember")
+@Table(name = "TB_GROUP_MEMBER")
 public class GroupMember {
     //默认不接收消息
     public static final int NOTIFY_LEVEL_INVALID = -1;
