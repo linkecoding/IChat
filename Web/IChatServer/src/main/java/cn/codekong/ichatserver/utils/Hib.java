@@ -2,6 +2,7 @@ package cn.codekong.ichatserver.utils;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
 import org.hibernate.boot.MetadataSources;
 import org.hibernate.boot.registry.StandardServiceRegistry;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
@@ -61,4 +62,74 @@ public class Hib {
             sessionFactory.close();
         }
     }
+
+    /**
+     * 用户实际操作的一个接口
+     */
+    public interface QueryOnly{
+        void query(Session session);
+    }
+
+    /**
+     * 简化Session操作的一个工具方法
+     * @param query
+     */
+    public static void queryOnly(QueryOnly query){
+        //重开一个Session
+        Session session = sessionFactory().openSession();
+        //开启事务
+        final Transaction transaction = session.beginTransaction();
+        try {
+            //调用接口
+            query.query(session);
+            transaction.commit();
+        }catch (Exception e){
+            e.printStackTrace();
+            //回滚
+            try {
+                transaction.rollback();
+            }catch (RuntimeException e1){
+                e1.printStackTrace();
+            }
+        }finally {
+            session.close();
+        }
+    }
+
+    /**
+     * 有返回值的查询
+     * @param <T>
+     */
+    public interface Query<T>{
+        T query(Session session);
+    }
+
+    /**
+     * 有返回值的查询
+     * @param query
+     * @param <T>
+     * @return
+     */
+    public static <T> T query(Query<T> query){
+        Session session = sessionFactory().openSession();
+        final Transaction transaction = session.beginTransaction();
+
+        T t = null;
+        try {
+            t = query.query(session);
+            transaction.commit();
+        }catch (Exception e){
+            e.printStackTrace();
+            //回滚
+            try {
+                transaction.rollback();
+            }catch (RuntimeException e1){
+                e1.printStackTrace();
+            }
+        }finally {
+            session.close();
+        }
+        return t;
+    }
+
 }
