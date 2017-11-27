@@ -4,17 +4,17 @@ import com.google.common.base.Strings;
 import com.google.gson.annotations.Expose;
 
 /**
- * Created by 尚振鸿 on 17-11-27. 19:40
+ * Created by 尚振鸿 on 17-11-27. 21:34
  * mail:szh@codekong.cn
  */
 
-public class RegisterModel {
+public class LoginModel {
+
     @Expose
     private String account;
+
     @Expose
     private String password;
-    @Expose
-    private String name;
 
     public String getAccount() {
         return account;
@@ -32,18 +32,14 @@ public class RegisterModel {
         this.password = password;
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public static boolean check(RegisterModel model){
+    /**
+     * 非空检验
+     * @param model
+     * @return
+     */
+    public static boolean check(LoginModel model){
         return model != null
                 && !Strings.isNullOrEmpty(model.account)
-                && !Strings.isNullOrEmpty(model.password)
-                && !Strings.isNullOrEmpty(model.name);
+                && !Strings.isNullOrEmpty(model.password);
     }
 }

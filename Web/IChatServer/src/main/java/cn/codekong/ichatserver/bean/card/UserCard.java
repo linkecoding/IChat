@@ -4,6 +4,8 @@ import com.google.gson.annotations.Expose;
 
 import java.time.LocalDateTime;
 
+import cn.codekong.ichatserver.bean.db.User;
+
 /**
  * Created by 尚振鸿 on 17-11-27. 19:29
  * mail:szh@codekong.cn
@@ -38,6 +40,20 @@ public class UserCard {
     //用户信息最后的更新时间
     @Expose
     private LocalDateTime modifyAt;
+
+    public UserCard(final User user){
+        this.id = user.getId();
+        this.name = user.getName();
+        this.phone = user.getPhone();
+        this.portrait = user.getPortrait();
+        this.desc = user.getDescription();
+        this.sex = user.getSex();
+        this.modifyAt = user.getUpdateAt();
+
+        //TODO 得到关注人和粉丝的数量,懒加载会报错,因为没有session
+        //user.getFollowing().size();
+        //user.getFollowers().size();
+    }
 
     public String getId() {
         return id;
