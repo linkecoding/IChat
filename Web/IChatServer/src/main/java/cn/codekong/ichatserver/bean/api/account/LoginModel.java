@@ -16,6 +16,9 @@ public class LoginModel {
     @Expose
     private String password;
 
+    @Expose
+    private String pushId;
+
     public String getAccount() {
         return account;
     }
@@ -28,9 +31,19 @@ public class LoginModel {
         return password;
     }
 
+    public String getPushId() {
+        return pushId;
+    }
+
+    public void setPushId(String pushId) {
+        this.pushId = pushId;
+    }
+
     public void setPassword(String password) {
         this.password = password;
     }
+
+
 
     /**
      * 非空检验
