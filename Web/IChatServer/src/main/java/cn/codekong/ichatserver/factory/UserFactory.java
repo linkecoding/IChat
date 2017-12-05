@@ -41,6 +41,18 @@ public class UserFactory {
     }
 
     /**
+     * 更新用户信息到数据库
+     * @param user
+     * @return
+     */
+    public static User update(User user){
+        return Hib.query(session -> {
+            session.saveOrUpdate(user);
+            return user;
+        });
+    }
+
+    /**
      * 给当前用户绑定pushId
      *
      * @param user   当前用户
@@ -129,10 +141,7 @@ public class UserFactory {
         //进行Base64格式化
         newToken = TextUtil.encodeBase64(newToken);
         user.setToken(newToken);
-        return Hib.query(session -> {
-            session.saveOrUpdate(user);
-            return user;
-        });
+        return update(user);
     }
 
     /**
