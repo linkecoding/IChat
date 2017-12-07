@@ -25,8 +25,9 @@ import cn.codekong.ichatserver.factory.UserFactory;
 public class AuthRequestFilter implements ContainerRequestFilter{
 
     //登录相对路径
-    public static final String LOGIN_RELATION_PATH = "account/login";
-    public static final String REGISTER_RELATION_PATH = "account/register";
+    private static final String LOGIN_RELATION_PATH = "account/login";
+
+    private static final String REGISTER_RELATION_PATH = "account/register";
 
     /**
      * 实现接口的过滤方法

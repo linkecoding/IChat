@@ -23,7 +23,7 @@ import cn.codekong.ichatserver.factory.UserFactory;
  */
 
 @Path("/account")
-public class AccountService {
+public class AccountService extends BaseService {
 
     /**
      * 注册
@@ -61,7 +61,7 @@ public class AccountService {
 
         if (user != null) {
             //如果有携带pushId
-            if (!Strings.isNullOrEmpty(model.getPushId())){
+            if (!Strings.isNullOrEmpty(model.getPushId())) {
                 return bind(user, model.getPushId());
             }
             AccountRspModel rspModel = new AccountRspModel(user);
@@ -89,7 +89,7 @@ public class AccountService {
 
         User user = UserFactory.login(model.getAccount(), model.getPassword());
         if (user != null) {
-            if(!Strings.isNullOrEmpty(model.getPushId())){
+            if (!Strings.isNullOrEmpty(model.getPushId())) {
                 return bind(user, model.getPushId());
             }
 
@@ -103,6 +103,13 @@ public class AccountService {
     }
 
 
+    /**
+     * 绑定设备Id
+     *
+     * @param token
+     * @param pushId
+     * @return
+     */
     @POST
     @Path("/bind/{pushId}")
     @Consumes(MediaType.APPLICATION_JSON)
@@ -117,14 +124,16 @@ public class AccountService {
             return ResponseModel.buildParameterError();
         }
 
-        //拿到自己的个人信息
-        User user = UserFactory.findByToken(token);
-        if (user != null) {
-            return bind(user, pushId);
-        } else {
-            //token无效,无法绑定
-            return ResponseModel.buildAccountError();
-        }
+        // 拿到自己的个人信息
+        // User user = UserFactory.findByToken(token);
+        // if (user != null) {
+        //     return bind(user, pushId);
+        // } else {
+        //     //token无效,无法绑定
+        //     return ResponseModel.buildAccountError();
+        // }
+        User self = getSelf();
+        return bind(self, pushId);
     }
 
 
@@ -138,7 +147,7 @@ public class AccountService {
     private ResponseModel<AccountRspModel> bind(User self, String pushId) {
         //进行pushId绑定操作
         User user = UserFactory.bindPushId(self, pushId);
-        if (user == null){
+        if (user == null) {
             //如果绑定失败,则是服务器异常
             return ResponseModel.buildServiceError();
         }

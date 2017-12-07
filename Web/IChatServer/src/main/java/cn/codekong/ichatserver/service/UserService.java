@@ -1,9 +1,6 @@
 package cn.codekong.ichatserver.service;
 
-import com.google.common.base.Strings;
-
 import javax.ws.rs.Consumes;
-import javax.ws.rs.HeaderParam;
 import javax.ws.rs.PUT;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
@@ -23,38 +20,29 @@ import cn.codekong.ichatserver.factory.UserFactory;
 
 //127.0.0.1/api/user/..
 @Path("/user")
-public class UserService {
+public class UserService extends BaseService{
 
     /**
      * 修改用户信息
      * 此处不写@Path(),就是当前目录
-     * @param token
      * @param model
      * @return
      */
     @PUT
     @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
-    public ResponseModel<UserCard> update(@HeaderParam("token") String token,
-                                          UpdateInfoModel model) {
-        if (Strings.isNullOrEmpty(token) || !UpdateInfoModel.check(model)) {
+    public ResponseModel<UserCard> update(UpdateInfoModel model) {
+        if (!UpdateInfoModel.check(model)) {
             return ResponseModel.buildParameterError();
         }
 
         //拿到自己的个人信息
-        User user = UserFactory.findByToken(token);
-        if (user != null) {
-            //更新用户信息
-            user = model.updateToUser(user);
-            user = UserFactory.update(user);
-
-            //架构自己的用户信息
-            UserCard card = new UserCard(user, true);
-            return ResponseModel.buildOk(card);
-        } else {
-            //token无效
-            return ResponseModel.buildAccountError();
-        }
-
+        User self = getSelf();
+        //更新用户信息
+        self = model.updateToUser(self);
+        self = UserFactory.update(self);
+        //架构自己的用户信息
+        UserCard card = new UserCard(self, true);
+        return ResponseModel.buildOk(card);
     }
 }
