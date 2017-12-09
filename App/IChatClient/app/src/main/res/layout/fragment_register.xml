@@ -6,9 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/bg_src_tianjin"
-    android:backgroundTint="@color/colorAccent"
-    android:backgroundTintMode="screen"
+    tools:background="@drawable/bg_src_tianjin"
     tools:context="cn.codekong.ichatclient.activities.AccountActivity">
 
     <android.support.v7.widget.Toolbar

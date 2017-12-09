@@ -1,15 +1,24 @@
 package cn.codekong.ichatclient.activities;
 
-import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
-
+import cn.codekong.common.app.Activity;
+import cn.codekong.common.app.Fragment;
 import cn.codekong.ichatclient.R;
+import cn.codekong.ichatclient.frags.user.UpdateInfoFragment;
 
-public class UserActivity extends AppCompatActivity {
+public class UserActivity extends Activity {
+    private Fragment mCurFragment;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_user);
+    protected int getContentLayoutId() {
+        return R.layout.activity_user;
+    }
+
+    @Override
+    protected void initWidget() {
+        super.initWidget();
+
+        mCurFragment = new UpdateInfoFragment();
+        getSupportFragmentManager()
+                .beginTransaction().add(R.layout.fragment_update_info, mCurFragment);
     }
 }

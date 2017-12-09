@@ -220,10 +220,19 @@ public abstract class RecyclerAdapter<Data> extends RecyclerView.Adapter<Recycle
      * @param <Data> 泛型
      */
     public interface AdapterListener<Data> {
-        //当Item点击时出发
+
+        /**
+         * 当Item点击时触发
+         * @param holder
+         * @param data
+         */
         void onItemClick(RecyclerAdapter.ViewHolder holder, Data data);
 
-        //当Item长按时触发
+        /**
+         * 当Item长按时触发
+         * @param holder
+         * @param data
+         */
         void onItemLongClick(RecyclerAdapter.ViewHolder holder, Data data);
     }
 
